@@ -13,8 +13,8 @@
 
 # Indice
 
-- <a href="Instalação">Instalação</a>
-- <a href="Configuração-inicial">Configuração inicial</a>
+- <a href="#instalação">Instalação</a>
+- <a href="#configuração-inicial">Configuração inicial</a>
 
 # Instalação
 

@@ -30,8 +30,8 @@ $ apt install git
 
 ## Modos de instalação
 
-- <a href="#Gerenciador-de-pacotes">Gerenciador de pacotes</a>
-- <a href="#Setup-Wizard">Setup Wizard</a>
+- <a href="#gerenciador-de-pacotes">Gerenciador de pacotes</a>
+- <a href="#setup-wizard">Setup Wizard</a>
 
 ## Gerenciador de pacotes
 
