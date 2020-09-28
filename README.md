@@ -16,6 +16,8 @@
 - <a href="#instalação">Instalação</a>
 - <a href="#configuração-inicial">Configuração inicial</a>
 - <a href="#iniciando-um-repositório">Iniciando um repositório</a>
+- <a href="#subindo-repositório-local-no-github">Subindo reposotório local no GitHub</a>
+- <a href="#sincronizando-um-repositório-local-com-o-publicado">Sincronizando um repositório local com o publicado</a>
 
 # Instalação
 
@@ -156,3 +158,40 @@ O _hash_ em amarelo no topo é o que usaremos futuramente para navegar entre os 
 
 **Atenção**
 Para fechar esta listagem, basta pressionar a tecla `'q'`. Viu só? É bem mais fácil do que fechar o [Vim](https://www.vim.org/) (risos).
+
+<br/>
+
+# Subindo reposotório local no GitHub
+
+Algo que você com certeza vai querer fazer com seu repositório, é salvá-lo na nuvem, e existem alternativas melhores do que um serviço de armazenamento em nuvem para arquivos convencionais, e estamos falando de plataformas como o [GitHub](https://github.com/).
+
+Após acessar a plataforma, e criar uma conta, vamos criar um novo repositório.
+
+![Exibindo commits](./.github/images/github-new-repo_01.png)
+
+Você pode dar o nome que preferir ao seu repositório, eu utilizarei _`example`_.
+
+![Exibindo commits](./.github/images/github-new-repo_02.png)
+
+**Blocos:**
+
+1. Nome do repositório, deve ser único. É interessante, também, nomear seus repositórios em [kebak-case](https://wiki.c2.com/?KebabCase).
+
+1. Este campo é opcional, mas aconselho colocar uma boa descrição, para chamar atenção das pessoas heheh.
+
+1. Aqui nós definimos a visibilidade do nosso repositório, se queremos mostra-lo para o mundo (public) ou se estamos fazendo algo muito secreto e que ninguém pode saber (private).
+
+1. Neste bloco nós temos alguns atalhos que vão nos facilitar na criação de alguns arquivos:
+
+- **README** -
+  Este arquivo é como uma página de boas vindas, nele você poderá escrever um documento, escrito em [markdown](https://www.markdownguide.org/) que é exibido na raiz de seu repositório, como este que você está lendo. 🤫
+
+- **.gitignore** -
+  Nós usaremos este carinha para dizer ao git quem ele não precisa observar, todo mundo que estiver aqui, não aparecerá na lista de itens alterados, por exemplo.
+
+- **License** -
+  O arquivo de licença especificará sob qual licença o seu repositório está. Se todo mundo pode usar seu projeto, se precisam de permissão... Apenas encontre uma que atenda suas necessidades.
+
+Por fim, criado!
+
+# Sincronizando um repositório local com o publicado
