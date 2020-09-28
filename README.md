@@ -32,7 +32,7 @@ $ git config --global user.name "Seu Nome"
 # Ex.: git config --global user.name "Angelo Evangelista"
 
 
-git config --global user.email "seu_email@dominio.com"
+$ git config --global user.email "seu_email@dominio.com"
 
 # Ex.: git config --global user.email "angeloevan@gmail.com"
 
