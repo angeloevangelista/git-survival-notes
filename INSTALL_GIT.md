@@ -58,7 +58,7 @@ Agora você já deve ser capaz de executar comando do git, como, por exemplo: _`
 
 <br/>
 
-Outra maneira possível de instalação, é utilizando o assintênte de instalação. Para isso, acesse *https://git-scm.com/download/*.
+Outra maneira possível de instalação, é utilizando o assistente de instalação. Para isso, acesse *https://git-scm.com/download/*.
 
 Dentro da página, selecione o seu sistema operacional (Windows):
 
