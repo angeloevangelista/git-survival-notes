@@ -17,6 +17,5 @@ choco -?
 Um manual completo de como usar o Chocolatey pode ser encontrado [aqui](https://chocolatey.org/docs/getting-started).
 
 <br/>
-<br/>
 
 [⬅️ Voltar a instalação do git](./INSTALL_GIT.md).

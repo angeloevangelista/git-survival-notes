@@ -2,7 +2,7 @@
 
 A instalação do git pode ser feita de algumas formas. Abaixo você encontrará algumas delas.
 
-<p align="center"> <a href="#Linux">Linux ❤️</a> | <a href="#Windowns">Windows</a></p>
+<p align="center"> <a href="#Linux">Linux ❤️</a> | <a href="#Windows">Windows</a></p>
 
 # Linux
 
@@ -28,10 +28,10 @@ $ apt install git
 
 # Windows
 
-## Modos de intalação
+## Modos de instalação
 
-- <a href="#Gerenciador de pacotes">Gerenciador de pacotes</a>
-- <a href="#Setup Wizard">Setup Wizard</a>
+- <a href="#Gerenciador-de-pacotes">Gerenciador de pacotes</a>
+- <a href="#Setup-Wizard">Setup Wizard</a>
 
 ## Gerenciador de pacotes
 
