@@ -16,7 +16,7 @@
 - <a href="#instalação">Instalação</a>
 - <a href="#configuração-inicial">Configuração inicial</a>
 - <a href="#iniciando-um-repositório">Iniciando um repositório</a>
-- <a href="#subindo-repositório-local-no-github">Subindo reposotório local no GitHub</a>
+- <a href="#criando-um-repositorio-no-github">Criando um repositório no GitHub</a>
 - <a href="#sincronizando-um-repositório-local-com-o-publicado">Sincronizando um repositório local com o publicado</a>
 
 # Instalação
@@ -161,7 +161,7 @@ Para fechar esta listagem, basta pressionar a tecla `'q'`. Viu só? É bem mais 
 
 <br/>
 
-# Subindo reposotório local no GitHub
+# Criando um reposotório no GitHub
 
 Algo que você com certeza vai querer fazer com seu repositório, é salvá-lo na nuvem, e existem alternativas melhores do que um serviço de armazenamento em nuvem para arquivos convencionais, e estamos falando de plataformas como o [GitHub](https://github.com/).
 
@@ -195,3 +195,41 @@ Você pode dar o nome que preferir ao seu repositório, eu utilizarei _`example`
 Por fim, criado!
 
 # Sincronizando um repositório local com o publicado
+
+Agora que nós já temos um repositório no Github, vamos atualizá-lo com o nosso _repo_ (apelido carinhoso para 'repositório') local.
+
+Para começarmos, precisaremos do _link_ de nosso repositório no Github, ele pode ser obtido aqui: 
+
+![Link do repositório no github](./.github/images/github-sync-repo_01.png)
+
+E no terminal, dentro de nosso repo, adicionaremos uma referência ao `origin`, para isso utilizaremos o seguinte comando:
+
+```bash
+$ git remote add origin LINK_DO_REPOSITORIO
+```
+
+Para conferir se tudo ocorreu bem, use
+
+```bash
+$ git remote -v
+```
+
+Abaixo a execução:
+
+![Adicionando origin no repositório local](./.github/images/github-sync-repo_02.png)
+
+Agora basta que enviemos as alterações para o repositório remoto.
+
+```bash
+$ git push origin BRANCH
+```
+
+A branch é a linha do tempo na qual se está, no nosso caso, usaremos a _`master`_, esta é a branch principal, tome cuidado com ela, pois ela é a sua branch "estável".
+
+Talvez você precise fazer login ao executar o comando, basta seguir os passos pelo terminal ou wizard.
+
+![Publicando alterações no Github](./.github/images/github-sync-repo_03.png)
+
+COLOCA O PRINTAo Do Githubz Auqi man ;)
+
+
