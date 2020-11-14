@@ -275,7 +275,8 @@ diretório/*
 // ignorar todos os arquivos com esta extensão
 
 !caminho_ou_pattern
-// este carinha faz o contrário, ou seja, se algo estiver sendo ignorado, com o ! você faz com que ele seja visível novamente.
+// este carinha faz o contrário, ou seja, 
+// se algo estiver sendo ignorado, com o ! você faz com que ele seja visível novamente.
 
 // experimente brincar com o * e o ! juntos ;)
 ```
