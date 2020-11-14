@@ -5,7 +5,7 @@
 </h1>
 
 <h3 align="center">
-  Git Tuto
+  Git survival notes
 </h3>
 <p>
 
