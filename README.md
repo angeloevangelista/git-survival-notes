@@ -19,6 +19,7 @@
 - <a href="#criando-pontos-na-história">Criando pontos na história (Commits)</a>
 - <a href="#criando-um-repositório-no-github">Criando um repositório no GitHub</a>
 - <a href="#sincronizando-um-repositório-local-com-o-publicado">Sincronizando um repositório local com o publicado</a>
+- <a href="#sobre-o-gitignore">Sobre o GitIgnore</a>
 
 # Instalação
 
@@ -238,3 +239,43 @@ Agora você pode conferir se o projeto está mesmo no servidor:
 ![Publicando alterações no Github](./.github/images/github-sync-repo_04.png)
 
 1. Ao lado de cada arquivo, você terá a mensagem do último `commit` que afetou este arquivo, seja por adição ou modificação.
+
+<br />
+
+# Sobre o gitignore
+
+O arquivo `.gitignore` contém os diretórios/arquivos que queremos ignorar, ou seja, o que não queremos subir para o servidor de versionamento.
+
+Seja porque são arquivos compilação ou build, que são gerados ao publicar o projeto ou até mesmo arquivos com credenciais e/ou senhas de acesso. Enfim, colocaremos aqui o que não queremos que o git monitore.
+
+O `.gitignore` é um arquivo texto e sua sintaxe é a seguinte:
+
+```gitn
+diretório_a_ignorar/
+arquivo_a_ignorar
+```
+
+## Algo a mais
+
+Existem alguns truques, ou apenas técnicas, para abranger um _range_ maior de caminhos, vejamos alguns deles:
+
+**Obs.:**
+
+sintaxe <br />
+// resultado
+
+```plaintext
+*
+// ignorar tudo apartir do diretório atual, é interessante em alguns casos, você saberá quando usar
+
+diretório/*
+// ignorar tudo dentro deste diretório
+
+**/*.extensao
+// ignorar todos os arquivos com esta extensão
+
+!caminho_ou_pattern
+// este carinha faz o contrário, ou seja, se algo estiver sendo ignorado, com o ! você faz com que ele seja visível novamente.
+
+// experimente brincar com o * e o ! juntos ;)
+```
