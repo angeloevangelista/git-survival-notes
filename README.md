@@ -17,7 +17,7 @@
 - <a href="#configuração-inicial">Configuração inicial</a>
 - <a href="#iniciando-um-repositório">Iniciando um repositório</a>
 - <a href="#criando-pontos-na-história">Criando pontos na história (Commits)</a>
-- <a href="#criando-um-repositorio-no-github">Criando um repositório no GitHub</a>
+- <a href="#criando-um-repositório-no-github">Criando um repositório no GitHub</a>
 - <a href="#sincronizando-um-repositório-local-com-o-publicado">Sincronizando um repositório local com o publicado</a>
 
 # Instalação
@@ -164,7 +164,7 @@ Para fechar esta listagem, basta pressionar a tecla `'q'`. Viu só? É bem mais 
 
 <br/>
 
-# Criando um reposotório no GitHub
+# Criando um repositório no GitHub
 
 Algo que você com certeza vai querer fazer com seu repositório, é salvá-lo na nuvem, e existem alternativas melhores do que um serviço de armazenamento em nuvem para arquivos convencionais, e estamos falando de plataformas como o [GitHub](https://github.com/).
 
