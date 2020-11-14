@@ -16,6 +16,7 @@
 - <a href="#instalação">Instalação</a>
 - <a href="#configuração-inicial">Configuração inicial</a>
 - <a href="#iniciando-um-repositório">Iniciando um repositório</a>
+- <a href="#criando-pontos-na-história">Criando pontos na história (Commits)</a>
 - <a href="#criando-um-repositorio-no-github">Criando um repositório no GitHub</a>
 - <a href="#sincronizando-um-repositório-local-com-o-publicado">Sincronizando um repositório local com o publicado</a>
 
@@ -62,6 +63,8 @@ Para iniciar um repositório vazio, basta rodar o comando _`init`_:
 A partir de agora qualquer alteração nesta pasta será "enxergada" pelo git, e podemos adicionar o que mudamos para um "grupo de mudanças", o que chamamos de _commit`_.
 
 <br/>
+
+# Criando pontos na história
 
 Faremos um exemplo seguindo os seguintes passos:
 
@@ -198,7 +201,7 @@ Por fim, criado!
 
 Agora que nós já temos um repositório no Github, vamos atualizá-lo com o nosso _repo_ (apelido carinhoso para 'repositório') local.
 
-Para começarmos, precisaremos do _link_ de nosso repositório no Github, ele pode ser obtido aqui: 
+Para começarmos, precisaremos do _link_ de nosso repositório no Github, ele pode ser obtido aqui:
 
 ![Link do repositório no github](./.github/images/github-sync-repo_01.png)
 
@@ -230,6 +233,8 @@ Talvez você precise fazer login ao executar o comando, basta seguir os passos p
 
 ![Publicando alterações no Github](./.github/images/github-sync-repo_03.png)
 
-COLOCA O PRINTAo Do Githubz Auqi man ;)
+Agora você pode conferir se o projeto está mesmo no servidor:
 
+![Publicando alterações no Github](./.github/images/github-sync-repo_04.png)
 
+1. Ao lado de cada arquivo, você terá a mensagem do último `commit` que afetou este arquivo, seja por adição ou modificação.
